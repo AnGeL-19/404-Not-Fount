@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-padre{
+
+    width: 80%;
+    height: 500px;
+    background: blueviolet;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.caja{
+    width: 100px;
+    height: 20px;
+    color: #ffffff;
+    background: black;
+    margin: 10px 20px 10px 0;
+    text-align: center;
+}
